@@ -22,5 +22,6 @@
         <!-- 使用xml配置文件的形式来指定 -->
         <!--<mapper resource="com/example/demo/dao/IUserDao.xml"/>-->
         <mapper class="com.example.demo.dao.IUserDao"/>
+        <mapper resource="com/example/demo/dao/ITaskDao.xml"/>
     </mappers>
 </configuration>
